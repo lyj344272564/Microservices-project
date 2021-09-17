@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-eureka-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-user-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-course-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-comment-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-order-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-pay-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-api/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-api2/pom.xml" />
+        <option value="$PROJECT_DIR$/edu-gateway2-boot/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

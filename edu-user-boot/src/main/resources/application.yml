@@ -1,0 +1,25 @@
+server:
+  port: 80
+spring:
+  application:
+    # 服务名称 - 服务之间使用名称进行通讯
+    name: edu-user-boot
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.116.128:3306/edu_user?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: 123456
+eureka:
+  client:
+    service-url:
+      # 填写注册中心服务器地址
+      defaultZone: http://localhost:7001/eureka
+      #是否需要将自己注册到注册中心(注册中心集群需要设置为true)
+      register-with-eureka: false
+      #是否需要搜索服务信息 因为自己是注册中心所以为false
+      fetch-registry: false
+  instance:
+    # 使用ip地址注册到注册中心
+    prefer-ip-address: true
+    # 注册中心列表中显示的状态参数
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
